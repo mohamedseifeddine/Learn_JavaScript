@@ -1,0 +1,119 @@
+
+
+/*
+                             **** Hello Guys****
+********** List of JavaScript functions inspired by Edabit platform  
+
+                               *****************************
+
+*/
+
+
+
+// Create a function that takes two numbers as arguments and returns their sum.
+
+function Somme(n1,n2){
+return  n1+n2
+}
+console.log(Somme(7,15))
+
+// Write a function that takes the base and height of a triangle as arguments and returns its area.
+
+function TriangleArea(B,H){
+
+  return 
+}
+console.log(TriangleArea(10,12))
+
+// Write a function that takes the height and the width of rectangle as arguments and returns its perimeter.
+
+  function RectanglePerimetre(W,H){
+
+  return 
+}
+console.log(RectanglePerimetre(6,6))
+ 
+ 
+// Write a function that takes a number as argument and returns it square.
+function SquareNumber(n){
+
+  return 
+}
+console.log(SquareNumber(9))
+
+// Write a function that takes two numbers are passed as parameters. The first parameter divided by the second parameter will have the remainder returns that value.
+
+function Rest(N ,n ){
+
+
+  return 
+}
+
+console.log(Rest(450,55))
+
+// Write a function that takes hours as argument  and converts its into seconds.
+
+function HourToSecond(H){
+
+  return 
+}
+console.log(HourToSecond(24))
+
+// Write a function that takes two arguments (hours, minutes) and converts them into seconds.
+function ConvertToSecond(H , M){
+
+  return 
+}
+console.log(ConvertToSecond(24,15))
+
+//Create a function that takes a name as argument and returns a greeting in the form of a string → "Hello name!".
+
+function Greeting(name){
+
+  return 
+}
+console.log(Greeting("Joseph"))
+
+
+  
+// Create a function that  takes a string as argument and returns the length of this string.
+
+function LengthOfString(str){
+
+  return 
+}
+console.log(LengthOfString("hello simplonien"))
+
+
+
+/* 
+    // Statement 
+
+Create a function that takes two strings as arguments, firstName and lastName, and returns a single string in the format "last, first".
+    
+    // Example 
+
+ Name('Amira','Chaabane') -> 'Amira Chaabane'
+
+*/
+function Name(firstName , lastName){
+
+  return 
+}
+console.log(Name("João","Félix"))
+
+// write a function that takes a string as argument and returns it to number
+
+function StringToNumber(str){
+
+  return 
+}
+console.log(StringToNumber("200"))
+
+// write a function that takes a number as argument and returns it to string
+
+function NumberToString(number){
+
+  return 
+}
+console.log(NumberToString(200))
