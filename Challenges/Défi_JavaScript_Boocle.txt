@@ -1,0 +1,223 @@
+Exercice:
+Create a function that takes a number as an argument. Add all the numbers from 1 to the number you passed to the function. For example, if the input is 5 then your function should return 15 because 1 + 2 + 3 + 4 +5 = 15.
+sumNumber(5)➞1+2+3+4+5=15
+sumNumber(4)➞1+2+3+4=10
+ 
+                                    function sumNumber(num) { return }
+
+
+
+Exercice:
+Write a function that takes an array as an argument and returns the reversion of this array.
+reverse([1, 2, 3, 4]) ➞ [4, 3, 2, 1]
+reverse([9, 9, 2, 3, 4]) ➞ [4, 3, 2, 9, 9]
+reverse([ ]) ➞ [ ]
+                                      function reverse(array) { return }
+Exercice:
+Create a function that accepts an array and returns the last item in the array.
+getLastItem([0, 5, 6]) ➞ 6
+getLastItem(["HTML", "CSS", "javascript"]) ➞ "javascript"
+                                          function getLastItem(array) { return }
+Exercice:
+Create a function that takes two arrays as arguments and returns the concatenation of two integer arrays.
+concat([0, 10, 6], [900, 5, 60]) ➞ [0, 10, 6, 900, 5, 60]
+
+                                          function concat(array1,  array2) { return }
+                                            
+Exercice:
+Create a function that takes an array and an item as arguments and return the index of item.If the item is not present, return -1
+search([1, 5, 3], 3) ➞ 2
+ search([1, 2, 3], 4) ➞ -1
+
+                                          function search(array,  item) { return }
+Exercice:
+Create a function that takes an array with numbers and return an array with the elements multiplied by two.
+getMultipliedArr([4, 5, 3]) ➞ [8, 10, 6]
+getMultipliedArr([1, 2, 6]) ➞ [2, 4, 12]
+                                                 
+                                        function getMultipliedArr(array) { return }
+
+                                                              
+Exercice:
+Create a function that takes as argument an array of words and transforms it into an array of each word's length.
+wordLengths(["simplon", "Tunis"]) ➞ [7, 5]
+                                                          
+                                       function wordLengths(array) { return }
+
+Exercice:
+Create a function that takes an array and returns the sum of all numbers in the array.
+sum([1, 8, 2]) ➞ 11
+sum([40, 0, 1]) ➞ 41
+                         function sum(array) { return }
+
+Exercice:
+Create a function that takes an array of numbers and returns only the even values.
+noOdds([1, 2, 3, 4, 5, 6, 7, 8]) ➞ [2, 4, 6, 8]
+noOdds([3, 6, 8, 9, 2, 1, 4, 5]) ➞ [6, 8, 2, 4]
+
+                   function noOdds(array) { return }
+
+
+Exercice:
+Create a function that takes an array of numbers.and returns the largest number in the array.
+findLargestNum([4, 5, 1, 3]) ➞ 5
+findLargestNum([300, 200, 600, 150]) ➞ 600
+findLargestNum([1000, 1001, 857, 1]) ➞ 1001
+                                       function findLargestNum(array) { return }
+Exercice:
+Create a function that takes an array of numbers.and returns the smaller number in the array.
+findSmallerNum([1, 6, 5, -213]) ➞ -213
+findSmallerNum([8, 7, 2, 1]) ➞ 1
+
+                                        function findSmallerNum(array) { return }
+Exercice:
+Create a function that takes an array of numbers as argument and return the first and last elements as a new array.
+firstLast([5, 10, 15, 20, 25]) ➞ [5, 25]
+firstLast([3, 100, 10, 21, 27]) ➞ [3, 100]
+                                                       
+                                          function firstLast(array) { return }
+Exercice:
+Create a function that takes an array and returns the difference between the biggest and smallest numbers.
+diffMaxMin([44, 32, 86, 19]) ➞ 67
+
+                                        function diffMaxMin(array) { return }
+Exercice:
+Create a function that takes an array as argument and returns multiply all of the values in an array by the length of the given array.
+multiplyByLength([2, 3, 1, 0]) ➞ [8, 12, 4, 0 ]
+multiplyByLength([4, 1, 1]) ➞ ([12, 3, 3])
+multiplyByLength([1, 0, 3, 3, 7, 2, 1]) ➞  [7, 0, 21, 21, 49, 14, 7]
+
+                                                function multiplyByLength(array) { return }
+Exercice:
+Create a function takes an array of numbers, negate all elements contained within.
+Negating a positive value -+n will return -n, because all +'s are removed
+Negating a negative value --n will return n, because the first - turns the second minus into a +.
+negate([1, 2, 3, 4]) ➞ [-1, -2, -3, -4]
+negate([-1, 2, -3, 4]) ➞ [1, -2, 3, -4]
+                                              
+                                                   function negate(array) { return }
+
+Exercice:
+Create a function that takes an array of strings and returns the words that are exactly four letters.
+isFourLetters(["Tomato", "Potato", "Pair"]) ➞ ["Pair"]
+isFourLetters(["Kangaroo", "Bear", "Fox"]) ➞ ["Bear"]
+
+                                                   function isFourLetters(array) { return }
+
+Exercice:
+Create a function that takes an array ,a string and returns the addition of the string ending to each member in an array
+addEnding(["clever", "meek", "hurried"], "ly") ➞ ["cleverly", "meekly", "hurriedly"]
+addEnding(["new", "pander", "scoop"], "er") ➞ ["newer", "panderer", “scooper"]
+
+                                                 function addEnding(array, ending) { return }
+
+Exercice:
+Create a function to remove all null values from an array.
+removeNull(["a", null, "b", null]) ➞ ["a", "b"]
+removeNull([7, 8, null, 9]) ➞ [7, 8, 9]
+removeNull([null, null, null, null, null]) ➞ [ ]
+
+                                                  function removeNull(array) { return }
+
+Exercice:
+Create a function that takes an array of numbers and remove any numbers that are divisible by 13,return the amended array.
+unlucky13([53, 182, 435, 591, 637]) ➞ [53, 435, 591]
+// 182 and 637 are divisible by 13.
+unlucky13([24, 316, 393, 458, 1279]) ➞ [24, 316, 393, 458, 1279]
+// No numbers in the array are divisible by 13.
+       
+                                    function unlucky(nums) { return }
+
+Exercice:
+Create a function that takes an array,return the incrementing (+1) for each odd number and decrementing (-1) for each even number.
+transform([1, 2, 3, 4, 5]) ➞ [2, 1, 4, 3, 6]
+transform([3, 3, 4, 3]) ➞ [4, 4, 3, 4]
+transform([2, 2, 0, 8, 10]) ➞ [1, 1, -1, 7, 9]
+                  
+                    function transform(array) { return }
+
+Exercice:
+Create a function that takes an array of non-negative numbers and strings and return a new array without the strings.Zero is a non-negative number
+filterArray([1, 2, "e", "f"]) ➞ [1, 2]
+filterArray([1, "s", "m", 0, 15]) ➞ [1, 0, 15]
+
+                                        function filterArray(array) { return }
+Exercice:
+
+A group of friends have decided to start a society. The name will be the first letter of each of their names, sorted in alphabetical order.
+Create a function that takes in an array of names as argument and returns the name of the society.
+societyName(["Manel", "Sheima", "Amira"]) ➞ "AMS"
+societyName(["Saief", "Mouna", "Sirine"]) ➞ "SMS"
+                                     
+                                         function societyName(friends) { return }
+
+Exercice:
+Create a function that takes an array of arrays with numbers and return a new (single) array with the largest numbers of each.
+findLargestNums([[9, 2, 3, 1], [20, 70, 40, 90], [4, 2, 3]]) ➞ [9, 90,4]
+findLargestNums([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]]) ➞ [-34, -2, 7]
+        
+                                        function findLargestNums(array) { return }
+
+
+Exercice:
+Create a function that takes an array of strings and return an array, sorted from shortest to longest.
+shortToLong(["Google", "Apple", "Microsoft"])➞ ["Apple", "Google", "Microsoft"]
+shortToLong(["Simplon", "Skills", "Development"])➞ ["Skills", "Simplon","Development"]
+
+                                        function shortToLong(array) { return }
+
+
+Exercice:
+Write two functions:
+toArray(), which converts a number to an array of its digits.
+toNumber(), which converts an array of digits back to its number.
+
+toArray(201) ➞ [2, 0, 1]
+toNumber([4, 8, 8]) ➞ 488
+toArray(7) ➞ [7]
+                                         function toArray(array) { return }
+                                    function toNumber(array) { return }
+
+Exercice:
+Create a function which takes in a word and spells it out, by consecutively adding letters until the full word is completed.
+spelling("bee") ➞ ["b", "be", "bee"]
+spelling("happy") ➞ ["h", "ha", "hap", "happ", "happy"]
+
+                                          function spelling(array) { return }
+
+
+
+
+Exercice:
+Write a function that converts an object into an array, where each element represents a key-value pair.
+toArray({ name: “saief”, age: 25 }) ➞ [["name", “saief”], ["age", 25]]
+toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
+toArray({}) ➞ []
+                                        function toArray(object) { return }
+
+/**** Défi : Les Boocles ****\
+Exercice:
+Create the function that takes an array with objects and returns the sum of people's 
+salary in society.
+
+getSalaries( [
+    { name: "Amira", age: 21, salary: 23000 },
+  { name: "Takwa",  age: 32, salary: 40000 },
+  { name: "Manel",  age: 16, salary: 2700 } ] ) ➞ 65700
+
+                                      function getSalaries(array) { return }
+
+
+
+
+Exercice:
+Create a function that takes an array as argument and returns the total number of arrays inside a given array.”just array”
+numOfSubbarrays([[1, 2, 3], ”bbvbx”, 2020]) ➞ 1
+numOfSubbarrays([“chaima”, ”Soltane”, [1, 2, 3], [1, 2, 3], [1, 2, 3]]) ➞ 3
+
+                                function numOfSubbarrays(array) { return }
+
+Exercice:
+Create a function that takes an array of objects as argument and returns an array of names
+([{ name: "Ahmed" },{ name: "Achref" },{ name: "Ayoub" }]) ➞ 
+  ["Ahmed", "Achref", "Ayoub"]
